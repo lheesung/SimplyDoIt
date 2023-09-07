@@ -25,8 +25,8 @@ def main():
     print("\nFiltered list of tasks (filtered by keyword \"Meeting\"):")
     print_data(filtered_list)
     print("------------------------------------------------------------")
-    
 
+# happy happy happy
 # Counts total deadlines using streams
 def count_deadlines_using_stream(tasks: List[Task]) -> int:
     count = sum(1 for task in tasks if isinstance(task, Deadline))
